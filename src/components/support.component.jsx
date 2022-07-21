@@ -1,12 +1,11 @@
 import React from "react";
 import blockImg from "../assets/support.jpg";
-import { PhoneIcon, ArrowSmRightIcon } from "@heroicons/react/outline";
-import { ChipIcon, SupportIcon } from "@heroicons/react/solid";
+import { ColorSwatchIcon, SwitchHorizontalIcon, PhotographIcon, ArrowSmRightIcon } from "@heroicons/react/outline";
 
 const Support = () => {
   return (
     <div className="w-full mt-24">
-      <div className="w-full h-[1160px] bg-slate-900/90 absolute bg-blend-darken">
+      <div className="w-full h-[660px] bg-slate-900/90 absolute bg-blend-darken">
         <img
           src={blockImg}
           alt="Blockchain Image"
@@ -23,100 +22,46 @@ const Support = () => {
             Blockchain Technology
           </h3>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-10 gap-y-16 px-10 pt-12 sm:pt-20 text-black mt-[10%] ">
+        <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-10 gap-y-16 px-10 pt-12 sm:pt-16 text-black mt-[10%] ">
           <div className=" bg-gradient-to-r from-blue-900 to-blue-500 border border-sky-500/50 rounded-2xl shadow-2xl shadow-sky-500/50 hover:from-blue-500 hover:to-blue-900 transform transition duration-500 hover:scale-105">
             <div className="p-8">
-              <PhoneIcon className="w-12 p-4 bg-slate-100 text-blue-600 rounded-lg mt-[-3.5rem]" />
-              <h3 className="font-bold text-2xl my-4">Sales</h3>
+              <ColorSwatchIcon className="w-12 p-4 bg-slate-100 text-blue-600 rounded-lg mt-[-3.5rem]" />
+              <h3 className="font-bold text-2xl my-4">Wallet</h3>
               <p className="text-gray-100 text-md my-4 ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto commodi beatae animi illum quas inventore tempore cum
-                facilis assumenda voluptas!
               </p>
             </div>
             <div className=" bg-tvmblack pl-8 py-3 mt-[3.5rem] rounded-lg ">
               <p className="flex items-center text-indigo-100">
-                Contact Us <ArrowSmRightIcon className="w-5 ml-2 " />
+                Explore <ArrowSmRightIcon className="w-5 ml-2 " />
               </p>
             </div>
           </div>
           <div className=" bg-gradient-to-r from-blue-900 to-blue-500 border border-sky-500/50 rounded-2xl shadow-2xl shadow-sky-500/50 hover:from-blue-500 hover:to-blue-900 transform transition duration-500 hover:scale-105">
             <div className="p-8">
-              <PhoneIcon className="w-12 p-4 bg-slate-100 text-blue-600 rounded-lg mt-[-3.5rem]" />
-              <h3 className="font-bold text-2xl my-4">Sales</h3>
+              <SwitchHorizontalIcon className="w-12 p-4 bg-slate-100 text-blue-600 rounded-lg mt-[-3.5rem]" />
+              <h3 className="font-bold text-2xl my-4">DEX Swap</h3>
               <p className="text-gray-100 text-md my-4 ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto commodi beatae animi illum quas inventore tempore cum
-                facilis assumenda voluptas!
               </p>
             </div>
             <div className=" bg-tvmblack pl-8 py-3 mt-[3.5rem] rounded-lg ">
               <p className="flex items-center text-indigo-100">
-                Contact Us <ArrowSmRightIcon className="w-5 ml-2 " />
+                Explore <ArrowSmRightIcon className="w-5 ml-2 " />
               </p>
             </div>
           </div>
           <div className=" bg-gradient-to-r from-blue-900 to-blue-500 border border-sky-500/50 rounded-2xl shadow-2xl shadow-sky-500/50 hover:from-blue-500 hover:to-blue-900 transform transition duration-500 hover:scale-105">
             <div className="p-8">
-              <PhoneIcon className="w-12 p-4 bg-slate-100 text-blue-600 rounded-lg mt-[-3.5rem]" />
-              <h3 className="font-bold text-2xl my-4">Sales</h3>
+              <PhotographIcon className="w-12 p-4 bg-slate-100 text-blue-600 rounded-lg mt-[-3.5rem]" />
+              <h3 className="font-bold text-2xl my-4">NFT Marketplace</h3>
               <p className="text-gray-100 text-md my-4 ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto commodi beatae animi illum quas inventore tempore cum
-                facilis assumenda voluptas!
               </p>
             </div>
             <div className=" bg-tvmblack pl-8 py-3 mt-[3.5rem] rounded-lg ">
               <p className="flex items-center text-indigo-100">
-                Contact Us <ArrowSmRightIcon className="w-5 ml-2 " />
-              </p>
-            </div>
-          </div>
-          <div className=" bg-gradient-to-r from-blue-900 to-blue-500 border border-sky-500/50 rounded-2xl shadow-2xl shadow-sky-500/50 hover:from-blue-500 hover:to-blue-900 transform transition duration-500 hover:scale-105">
-            <div className="p-8">
-              <PhoneIcon className="w-12 p-4 bg-slate-100 text-blue-600 rounded-lg mt-[-3.5rem]" />
-              <h3 className="font-bold text-2xl my-4">Sales</h3>
-              <p className="text-gray-100 text-md my-4 ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto commodi beatae animi illum quas inventore tempore cum
-                facilis assumenda voluptas!
-              </p>
-            </div>
-            <div className=" bg-tvmblack pl-8 py-3 mt-[3.5rem] rounded-lg ">
-              <p className="flex items-center text-indigo-100">
-                Contact Us <ArrowSmRightIcon className="w-5 ml-2 " />
-              </p>
-            </div>
-          </div>
-          <div className=" bg-gradient-to-r from-blue-900 to-blue-500 border border-sky-500/50 rounded-2xl shadow-2xl shadow-sky-500/50 hover:from-blue-500 hover:to-blue-900 transform transition duration-500 hover:scale-105">
-            <div className="p-8">
-              <PhoneIcon className="w-12 p-4 bg-slate-100 text-blue-600 rounded-lg mt-[-3.5rem]" />
-              <h3 className="font-bold text-2xl my-4">Sales</h3>
-              <p className="text-gray-100 text-md my-4 ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto commodi beatae animi illum quas inventore tempore cum
-                facilis assumenda voluptas!
-              </p>
-            </div>
-            <div className=" bg-tvmblack pl-8 py-3 mt-[3.5rem] rounded-lg ">
-              <p className="flex items-center text-indigo-100">
-                Contact Us <ArrowSmRightIcon className="w-5 ml-2 " />
-              </p>
-            </div>
-          </div>
-          <div className=" bg-gradient-to-r from-blue-900 to-blue-500 border border-sky-500/50 rounded-2xl shadow-2xl shadow-sky-500/50 hover:from-blue-500 hover:to-blue-900 transform transition duration-500 hover:scale-105">
-            <div className="p-8">
-              <PhoneIcon className="w-12 p-4 bg-slate-100 text-blue-600 rounded-lg mt-[-3.5rem]" />
-              <h3 className="font-bold text-2xl my-4">Sales</h3>
-              <p className="text-gray-100 text-md my-4 ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto commodi beatae animi illum quas inventore tempore cum
-                facilis assumenda voluptas!
-              </p>
-            </div>
-            <div className=" bg-tvmblack pl-8 py-3 mt-[3.5rem] rounded-lg ">
-              <p className="flex items-center text-indigo-100">
-                Contact Us <ArrowSmRightIcon className="w-5 ml-2 " />
+                Explore <ArrowSmRightIcon className="w-5 ml-2 " />
               </p>
             </div>
           </div>
