@@ -5,7 +5,7 @@ const AllInOne = () => {
   return (
     <div className="w-full my-32 bg-tvmblack">
       <div className="max-w-[1240px] mx-auto px-2">
-        <h2 className="text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">All In One Paltform</h2>
+        <h2 className="text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">All In One Platform</h2>
         <p className="ext-2xl py-8 text-gray-500 text-center md:px-36 ">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
           provident libero reiciendis harum reprehenderit alias. Rerum mollitia
