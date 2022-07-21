@@ -1,12 +1,10 @@
 import React from "react";
 import {
-  CloudUploadIcon,
-  DatabaseIcon,
-  PaperAirplaneIcon,
-  ServerIcon,
+  CurrencyDollarIcon,
+  CashIcon,
+  ChartBarIcon
 } from "@heroicons/react/solid";
 import blocks from "../assets/blocks.png";
-import logo from "../assets/logo.png";
 
 const Hero = () => {
   return (
@@ -39,39 +37,22 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="container max-w-[100vw] text-center m-auto flex flex-col items-center justify-center -mb-[15rem] md:-mb-[10rem] my-[5rem] md:my-[5rem] py-5 px-5 w-2/4 h-[50%] ">
-
-        <div class="relative">
-          <img class="w-40 h-40 rounded-md object-cover" src={logo}
-            alt="Logo" />
+      <div className="container max-w-[100vw] text-center m-auto shadow-md shadow-sky-600 flex flex-col items-center justify-center bg-slate-900 rounded-lg -mb-[15rem] md:-mb-[10rem] my-[5rem] md:my-[5rem] py-5 px-5 w-2/4 h-[50%] ">
+        <p className="mb-4 text-xl font-bold text-white uppercase">Tenvium Network</p>
+        <div className="flex gap-7 flex-wrap">
+          <p className="flex justify-center items-center text-sm text-white ">
+            <CurrencyDollarIcon className="h-8 text-blue-600 mr-2 ml-2" /> 
+            <span className="text-blue-500 font-bold mr-1"> $NaN </span> Current Price
+          </p>
+          <p className="flex justify-center items-center text-sm text-white">
+            <CashIcon className="h-8 text-blue-600 mr-2 ml-2" /> 
+            <span className="text-blue-500 font-bold mr-1"> $NaN </span> Market Cap
+          </p>
+          <p className="flex justify-center items-center text-sm text-white">
+            <ChartBarIcon className="h-8 text-blue-600 mr-2 ml-2" /> 
+            <span className="text-blue-500 font-bold mr-1"> $NaN </span> Volume (24H)
+          </p>
         </div>
-
-        <div class="flex flex-col px-6">
-          <div class="mt-2 flex flex-row items-center space-x-5">
-            <a href="#"
-              class="flex h-20 w-40 flex-col items-center justify-center shadow-md shadow-sky-600 rounded-lg border border-gray-100 transition-colors duration-100 ease-in-out hover:border-blue-400/80">
-              <div class="flex flex-row items-center justify-center">
-                <span class="font-bold text-blue-600"> $NaN </span>
-              </div>
-              <div class="mt-2 text-sm text-gray-400">Current Price</div>
-            </a>
-            <a href="#"
-              class="flex h-20 w-40 flex-col items-center justify-center shadow-md shadow-sky-600 rounded-lg border border-gray-100 transition-colors duration-100 ease-in-out hover:border-blue-400/80">
-              <div class="flex flex-row items-center justify-center">
-                <span class="font-bold text-blue-600"> $NaN </span>
-              </div>
-              <div class="mt-2 text-sm text-gray-400">Market Cap</div>
-            </a>
-            <a href="#"
-              class="flex h-20 w-40 flex-col items-center shadow-md shadow-sky-600 justify-center rounded-lg border border-gray-100 transition-colors duration-100 ease-in-out hover:border-blue-400/80">
-              <div class="flex flex-row items-center justify-center">
-                <span class="font-bold text-blue-600"> $NaN </span>
-              </div>
-              <div class="mt-2 text-sm text-gray-400">Volume (24H)</div>
-            </a>
-          </div>
-        </div>
-
       </div>
     </div>
   );

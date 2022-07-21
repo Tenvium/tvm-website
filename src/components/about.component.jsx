@@ -21,30 +21,28 @@ const About = () => {
                 <p role="contentinfo" class="text-base leading-5 mt-5 text-gray-200">We’re working on a suit of tools to make managing complex systems easier, for everyone for free. we can’t wait to hear what you think</p>
             </div>
             <div class="xl:w-1/2 lg:w-7/12 static w-full lg:mt-0 mt-12 md:px-8" role="list">
-                <div role="listitem" class="bg-white cursor-pointer shadow rounded-lg p-8 static z-30">
+                <div role="listitem" class="bg-tvmblack cursor-pointer shadow rounded-xl p-8 static z-30 border border-blue-600">
                     <div class="md:flex items-center justify-between">
-                        <h2 class="text-2xl font-semibold leading-6 text-gray-800">Secure</h2>
-                        <p class="text-2xl font-semibold md:mt-0 mt-4 leading-6 text-gray-800">FREE</p>
+                        <h2 class="text-2xl font-semibold leading-6 text-gray-100">Secure</h2>
+                        <p class="text-2xl font-semibold md:mt-0 mt-4 leading-6 text-gray-100">1</p>
                     </div>
-                    <p class="md:w-80 text-base leading-6 mt-4 text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt inventore exercitationem</p>
+                    <p class="md:w-80 text-base leading-6 mt-4 text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt inventore exercitationem</p>
                 </div>
-                <div role="listitem" class="bg-white cursor-pointer shadow rounded-lg mt-3 flex static z-30">
-                    <div class="w-2.5 h-auto bg-blue-700 rounded-tl-md rounded-bl-md"></div>
-                    <div class="w-full p-8">
-                        <div class="md:flex items-center justify-between">
-                            <h2 class="text-2xl font-semibold leading-6 text-gray-800">High Performance</h2>
-                            <p class="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800"><span class="font-normal text-base">/mo</span></p>
-                        </div>
-                        <p class="md:w-80 text-base leading-6 mt-4 text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt inventore exercitationem</p>
-                    </div>
-                </div>
-                <div role="listitem" class="bg-white cursor-pointer shadow rounded-lg p-8 static z-30 mt-7">
+                <div role="listitem" class="bg-tvmblack cursor-pointer shadow rounded-xl p-8 static z-30 border border-blue-600 mt-5">
                     <div class="md:flex items-center justify-between">
-                        <h2 class="text-2xl font-semibold leading-6 text-gray-800">EVM Compatible</h2>
-                        <p class="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800"><span class="font-normal text-base">/mo</span></p>
+                        <h2 class="text-2xl font-semibold leading-6 text-gray-100">High Performance</h2>
+                        <p class="text-2xl font-semibold md:mt-0 mt-4 leading-6 text-gray-100">2</p>
                     </div>
-                    <p class="md:w-80 text-base leading-6 mt-4 text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt inventore exercitationem</p>
+                    <p class="md:w-80 text-base leading-6 mt-4 text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt inventore exercitationem</p>
                 </div>
+                <div role="listitem" class="bg-tvmblack cursor-pointer shadow rounded-xl p-8 static z-30 border border-blue-600 mt-5">
+                    <div class="md:flex items-center justify-between">
+                        <h2 class="text-2xl font-semibold leading-6 text-gray-100">EVM Compatible</h2>
+                        <p class="text-2xl font-semibold md:mt-0 mt-4 leading-6 text-gray-100">3</p>
+                    </div>
+                    <p class="md:w-80 text-base leading-6 mt-4 text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt inventore exercitationem</p>
+                </div>
+
             </div>
         </div>
       </div>
