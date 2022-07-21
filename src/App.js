@@ -4,7 +4,7 @@ import AllInOne from "./components/allInOne.components";
 import Footer from "./components/footer.component";
 import Hero from "./components/hero.component";
 import Navbar from "./components/navbar.component";
-import Tokenomics from "./components/tokenomics.component";
+import Validator from "./components/validator.component";
 import Support from "./components/support.component";
 import Roadmap from "./components/roadmap.component";
 
@@ -17,7 +17,7 @@ const App = () => {
       <Support />
       <AllInOne />
       <Roadmap />
-      <Tokenomics />
+      <Validator />
       <Footer />
     </>
   );

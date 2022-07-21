@@ -32,12 +32,11 @@ const Roadmap = () => {
 
             <div className="flex-auto">
               <h1 className="text-lg uppercase font-bold text-blue-600">2022 - Q3</h1>
-              <li className="py-0">Build a Team</li>
-              <li className="py-0">Core Chain RnD</li>
+              <li className="py-0">Build a RnD Team</li>
               <li className="py-0">Release Official Website</li>              
               <li className="py-0">Launch a Token on BSC Network</li>
               <li className="py-0">Marketing Campaign</li>
-              <li className="py-0">Release TVM DEX Swap</li>
+              <li className="py-0">Release TVM DEX Swap & NFT Marketplace</li>
             </div>
           </div>
 
@@ -52,8 +51,7 @@ const Roadmap = () => {
               <li className="py-0">Block Explorer Development</li>
               <li className="py-0">Building Cross-Chain Bridge Web</li>              
               <li className="py-0">Launch Public Testnet</li>
-              <li className="py-0">Airdrop Campaign</li>
-              <li className="py-0">Marketing with Big Influencer Crypto</li>
+              <li className="py-0">Apply to CMC and CG</li>
             </div>
           </div>
 
@@ -64,11 +62,11 @@ const Roadmap = () => {
 
             <div className="flex-auto">
             <h1 className="text-lg uppercase font-bold text-blue-600">2023 - Q1</h1>
-              <li className="py-0">AAA</li>
-              <li className="py-0">AAA</li>
-              <li className="py-0">AAA</li>              
-              <li className="py-0">AAA</li>
-              <li className="py-0">AAA</li>
+              <li className="py-0">Marketing with Big Influencer Crypto</li>
+              <li className="py-0">Launch Staking Platform</li>
+              <li className="py-0">Validator Programs</li>
+              <li className="py-0">Launch Mainnet 1.0</li>              
+              <li className="py-0">Release Official Wallet</li>
             </div>
           </div>
 
@@ -79,11 +77,11 @@ const Roadmap = () => {
 
             <div className="flex-auto">
             <h1 className="text-lg uppercase font-bold text-blue-600">2023 - Q2</h1>
-              <li className="py-0">AAA</li>
-              <li className="py-0">AAA</li>
-              <li className="py-0">AAA</li>              
-              <li className="py-0">AAA</li>
-              <li className="py-0">AAA</li>
+              <li className="py-0">Partnership Programs</li>
+              <li className="py-0">Release Official Wallet</li>
+              <li className="py-0">Mainnet 2.0 - Application of new consensus algorithms</li>              
+              <li className="py-0">Current blockchain generations bridge: ETH, HECO, AVAX, etc.</li>
+              <li className="py-0">Roadmap 2.0</li>
             </div>
           </div>
 
